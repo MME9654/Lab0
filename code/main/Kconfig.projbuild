@@ -1,0 +1,9 @@
+menu "Lab 0 Configuration"
+
+    config RESTART_INTERVAL
+        int "Restart interval for ESP32"
+        range 1 60
+        default 10
+        help
+            Sets the restart interval for the ESP32. Allowable range is 1–60.
+    endmenu
