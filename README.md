@@ -44,7 +44,7 @@ While PCs are available, it is **highly recommended** that the development envir
 
         Note that the Espressif32 v6.5.0 platform is tied to ESP-IDF v5.1.2.
 
-    3. Clone this repository and upload the code found in the [code](code) folder to your ESP32-S3. You can follow the instructions [here](https://docs.espressif.com/projects/esp-idf/en/v5.1.2/esp32s3/get-started/index.html#build-your-first-project) for the steps involved. 
+    3. Clone this repository and upload the code found in the [code](code) folder to your ESP32-S3. You can follow the instructions given in [Build Your First Project](https://docs.espressif.com/projects/esp-idf/en/v5.1.2/esp32s3/get-started/index.html#build-your-first-project) for your platform. 
     
     Alternatively, the code can be built, uploaded, and monitored using PlatformIO. Note that the PlatformIO monitor does not show output from the USB port labelled UART. You will have to connect to the USB port labelled USB. If desired, a second cable may be used to connect to both ports (1 for programming and one for monitoring/debugging).
     
