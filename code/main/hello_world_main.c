@@ -19,7 +19,7 @@
 // Restart interval can be set in menuconfig, see "Lab 0 Example Configuration" menu
 // You can also change the restart interval here by changing the following line
 
-#define RESTART_INTERVAL        CONFIG_RESTART_INTERVAL
+#define RESTART_INTERVAL        CONFIG_LAB0_RESTART_INTERVAL
 
 void app_main(void)
 {
