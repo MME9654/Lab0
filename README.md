@@ -31,7 +31,7 @@ While PCs are available, it is **highly recommended** that the development envir
 
 2. Install the ESP-IDF toolchain. There are two main approaches for this:
     
-    1. **ESP-IDF** This is the "official" method that relies on a collection of command line tools. While the installation process is more involved, this approach provides direct access to all of the tools and enables specific versions of the ESP-IDF to be used. This is particularly useful if new features or bug fixes are made available and are not yet supported by PlatformIO. The installation process is outlined [here](https://docs.espressif.com/projects/esp-idf/en/v5.1.2/esp32s3/get-started/index.html#manual-installation). For Windows installations, the use of the [PowerShell](https://learn.microsoft.com/en-us/powershell) environment is recommended over the standard Command Prompt environment.
+    1. **ESP-IDF** This is the "official" method that relies on a collection of command line tools. While the installation process is more involved, this approach provides direct access to all of the tools and enables specific versions of the ESP-IDF to be used. This is particularly useful if new features or bug fixes are made available and are not yet supported by PlatformIO. The installation process is outlined [here](https://docs.espressif.com/projects/esp-idf/en/v5.4/esp32s3/get-started/index.html#manual-installation). For Windows installations, the use of the [PowerShell](https://learn.microsoft.com/en-us/powershell) environment is recommended over the standard Command Prompt environment.
 
         Once installed, projects can be developed using a text or code editor of your choice. [VSCode](https://code.visualstudio.com/) is highly recommended, even if PlatformIO is not used for development work. It is a feature-rich code editor that provides syntax highlighting and checking, version control integration, and many other useful features.
 
@@ -40,11 +40,11 @@ While PCs are available, it is **highly recommended** that the development envir
         1. Install [VSCode](https://code.visualstudio.com/Download) and open it.
         2. Install the [PlatformIO VSCode](https://platformio.org/platformio-ide) extension from with VSCode as outlined [here](https://platformio.org/install/ide?install=vscode).
         3. Install the [Espressif32](https://docs.platformio.org/en/latest/platforms/espressif32.html) development platform. PlatformIO will automatically install it for any projects that include it as a dependancy; however, it can also be manually installed. Open a PlatformIO Core CLI terminal from **PLATFORMIO➞QUICK ACCESS➞Miscellaneous➞PlatformIO Core CLI** and enter the following command:
-         `pio pkg install --global --platform "platformio/espressif32@^6.5.0"`
+         `pio pkg install --global --platform "platformio/espressif32@^6.9.0"`
 
-        Note that the Espressif32 v6.5.0 platform is tied to ESP-IDF v5.1.2.
+        Note that the Espressif32 v6.9.0 platform is tied to ESP-IDF v5.3.1.
 
-    3. Clone this repository and upload the code found in the [code](\code) folder to your ESP32-S3. You can follow the instructions [here](https://docs.espressif.com/projects/esp-idf/en/v5.1.2/esp32s3/get-started/index.html#build-your-first-project) for the steps involved. 
+    3. Clone this repository and upload the code found in the [code](\code) folder to your ESP32-S3. You can follow the instructions [here](https://docs.espressif.com/projects/esp-idf/en/v5.4/esp32s3/get-started/index.html#build-your-first-project) for the steps involved. 
     
     Alternatively, the code can be built, uploaded, and monitored using PlatformIO. Note that the PlatformIO monitor does not show output from the USB port labelled UART. You will have to connect to the USB port labelled USB. If desired, a second cable may be used to connect to both ports (1 for programming and one for monitoring/debugging).
     

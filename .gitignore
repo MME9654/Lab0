@@ -8,7 +8,7 @@
 *.code-workspace
 
 # ESP-IDF
-sdkconfig*.old
+sdkconfig*
 build
 managed_components
 dependencies.lock
